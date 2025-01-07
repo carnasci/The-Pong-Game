@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc98926-be89-4dec-8c54-ca45f855aa5c" name="Changes" comment="Day 22 - ball detects collision with top and bottom walls and bounces">
+    <list default="true" id="2bc98926-be89-4dec-8c54-ca45f855aa5c" name="Changes" comment="Day 22 - ball detects collision with both paddles and bounces back in opposite direction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736275441233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 22 - ball detects collision with both paddles and bounces back in opposite direction">
+      <option name="closed" value="true" />
+      <created>1736276209594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736276209594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +126,7 @@
     <MESSAGE value="Day 22 - left and right paddles created from paddle class and can move independently" />
     <MESSAGE value="Day 22 - ball class created and ball object moves" />
     <MESSAGE value="Day 22 - ball detects collision with top and bottom walls and bounces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 22 - ball detects collision with top and bottom walls and bounces" />
+    <MESSAGE value="Day 22 - ball detects collision with both paddles and bounces back in opposite direction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 22 - ball detects collision with both paddles and bounces back in opposite direction" />
   </component>
 </project>

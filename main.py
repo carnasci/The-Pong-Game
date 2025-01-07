@@ -35,6 +35,13 @@ while game_is_on:
     if ball.distance(r_paddle) < 50 and ball.xcor() > 320 or ball.distance(l_paddle) < 50 and ball.xcor() < -320:
         ball.paddle_bounce()
 
+    #Detect if right player scores
+    if ball.xcor() < -390:
+        ball.restart()
+
+    #Detect if left player scores
+    if ball.xcor() > 390:
+        ball.restart()
 
 
 

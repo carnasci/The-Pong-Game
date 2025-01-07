@@ -1,6 +1,7 @@
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
+from scoreboard import Scoreboard
 import time
 
 
@@ -13,6 +14,7 @@ screen.tracer(0)
 l_paddle = Paddle((-350, 0))
 r_paddle = Paddle((350, 0))
 ball = Ball()
+scoreboard = Scoreboard()
 
 
 screen.listen()
@@ -38,10 +40,12 @@ while game_is_on:
     #Detect if right player scores
     if ball.xcor() < -390:
         ball.restart()
+        scoreboard.r_player_score()
 
     #Detect if left player scores
     if ball.xcor() > 390:
         ball.restart()
+        scoreboard.l_player_score()
 
 
 
